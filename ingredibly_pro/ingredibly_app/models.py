@@ -1,0 +1,15 @@
+from django.db import models
+
+# Create your models here.
+class Product_db(models.Model):
+    prod_brand=models.CharField(max_length=100)
+    prod_name=models.CharField(max_length=200)
+    category=models.CharField(max_length=30)
+    ingredients=models.CharField(max_length=200)
+    product_url=models.CharField(max_length=300)
+class Ingredient_db(models.Model):
+    ingredient_name=models.CharField(max_length=100)
+    source=models.CharField(max_length=60)
+    use=models.CharField(max_length=200)
+    allergen_flag=models.CharField(max_length=200)
+    

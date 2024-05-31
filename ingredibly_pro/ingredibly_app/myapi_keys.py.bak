@@ -1,0 +1,9 @@
+chatgpt_api=""
+google_search_api=""
+cx_val=""
+
+def fun():
+    chatgpt_api="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"
+    google_search_api='AIzaSyD40Xp8JUCBUqIwamey1aaQ5H75iNELsAY'
+    cx_val='933cb029522d5413b'
+    return chatgpt_api,google_search_api,cx_val

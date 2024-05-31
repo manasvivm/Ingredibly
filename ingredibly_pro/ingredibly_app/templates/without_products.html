@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <ul>
+        {% for prod in mhello %}
+        <img src="{{prod.product_url}}" alt="{{prod.prod_name}}"></img>   
+		<h3>{{prod.prod_name}}</h3><br>
+        {% endfor %}  
+        </ul>                                                                        
+    </body>
+</html>

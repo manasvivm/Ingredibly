@@ -1,0 +1,14 @@
+<html>
+    {% for prods in mhello %}
+<img src="{{prods.product_url}}"  alt="{{prods.prod_name}}" width="100px" height="100px"></img>
+<br><label>Brand : {{prods.prod_brand}}</label><br>
+<label>Category : {{prods.category}}</label><br>
+
+<label>Ingredients:<br>{{prods.ingredients}}</label><br>
+
+{% endfor %}
+<!--<ul> {% for entry in entries %}
+  <li>{{ entry.title }}</li>
+  {% endfor %}
+</ul>-->
+</html>
